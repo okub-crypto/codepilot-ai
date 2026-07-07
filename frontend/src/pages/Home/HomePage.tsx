@@ -1,3 +1,4 @@
+import Pricing from "../../components/sections/Pricing";
 import Hero from "../../components/common/Hero";
 import Features from "../../components/common/Features";
 import HowItWorks from "../../components/sections/HowItWorks";
@@ -16,6 +17,7 @@ function HomePage() {
       <Stats />
       <Founder />
       <CTA />
+       <Pricing />
     </>
   );
 }
